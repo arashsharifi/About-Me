@@ -9,7 +9,7 @@ export default function Header({ category }) {
   let [open, setOpen] = useState(false);
   console.log(mainCategory);
   const sameStyle =
-    "cursor-pointer text-black whitespace-nowrap transition ease-in-out delay-150 bg-transparent hover:bg-violet-900 hover:text-white px-2 py-1 rounded-lg  ";
+    "ml-4 my-5 md:my-0 text-gray-800 hover:text-gray-400 duration-300";
   const checkStyle =
     "cursor-pointer text-white bg-ferveritPink px-2 py-1 rounded-lg";
   return (
@@ -35,15 +35,10 @@ export default function Header({ category }) {
           {category.map((cat) => (
             <li
               onClick={() => setMainCategory(cat.category)}
-              className="ml-4 my-5 md:my-0"
+              className={cat.category === mainCategory ? checkStyle : sameStyle}
               key={cat.id}
             >
-              <a
-                className="text-gray-800 hover:text-gray-400 duration-300"
-                href="#"
-              >
-                {cat.title}
-              </a>
+              <a href="#">{cat.title}</a>
             </li>
           ))}
           <Button>get started</Button>
