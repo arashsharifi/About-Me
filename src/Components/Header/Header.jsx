@@ -3,11 +3,17 @@ import { Link } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { AiFillThunderbolt } from "react-icons/ai";
 import Button from "../Button/Button";
-export default function Header({ category }) {
-  console.log(category);
+import { dataAboutCategory } from "../../data";
+
+export default function Header() {
+  const [category, setCategory] = useState(dataAboutCategory);
+
   const [mainCategory, setMainCategory] = useState("about");
+
   let [open, setOpen] = useState(false);
+
   console.log(mainCategory);
+
   const sameStyle =
     "ml-4 my-5 md:my-0 text-gray-800 hover:text-gray-400 duration-300";
   const checkStyle =
@@ -38,7 +44,7 @@ export default function Header({ category }) {
               className={cat.category === mainCategory ? checkStyle : sameStyle}
               key={cat.id}
             >
-              <a href="#">{cat.title}</a>
+              <Link to={cat.to}>{cat.title}</Link>
             </li>
           ))}
           <Button>get started</Button>
