@@ -37,4 +37,37 @@ const skillData = [
   { id: 5, name: "ICDL", W: "70%", costumAnimation: "5s", tooltip: "70%" },
 ];
 
-export { dataAboutCategory, aboutPresonData, skillData };
+const swiperDataProjects = [
+  {
+    id: 1,
+    img: "./images/pro1.jpg",
+    title: "final-Project-maketab-React",
+    herefAddress: "https://github.com/arashsharifi/final_project_react",
+  },
+  {
+    id: 2,
+    img: "./images/pro1.jpg",
+    title: "final-Project-maketab-js",
+    herefAddress: "https://github.com/arashsharifi/final_project_react",
+  },
+  {
+    id: 3,
+    img: "./images/pro1.jpg",
+    title: "mini-project",
+    herefAddress: "https://github.com/arashsharifi/final_project_react",
+  },
+  {
+    id: 4,
+    img: "./images/pro1.jpg",
+    title: "mini-project-two",
+    herefAddress: "https://github.com/arashsharifi/final_project_react",
+  },
+  {
+    id: 5,
+    img: "./images/pro1.jpg",
+    title: "homePage",
+    herefAddress: "https://github.com/arashsharifi/final_project_react",
+  },
+];
+
+export { dataAboutCategory, aboutPresonData, skillData, swiperDataProjects };

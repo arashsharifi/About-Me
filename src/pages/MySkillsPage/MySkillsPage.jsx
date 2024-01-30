@@ -63,7 +63,7 @@ export default function MySkillsPage() {
           <h1 className="self-start text-3xl text-ferveritPink">
             About MySelf
           </h1>
-          <p className="text-ferveritPink">
+          <p className="text-ferveritPink  drop-shadow-xl ">
             My interest in front-end programming and my choice of React is due
             to its ease of use, strong community, strong ecosystem, and use in
             large enterprises. React is a powerful framework for developing

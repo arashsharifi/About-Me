@@ -39,21 +39,21 @@ export default function AboutPage() {
         <div className="flex gap-3 p-1 items-center">
           <div className="flex gap-2  items-center ">
             <FaPhoneAlt />
-            <p>phone:</p>
+            <p className="text-sm">phone:</p>
           </div>
           <p>{aboutPreson.phone}</p>
         </div>
         <div className=" ml-1 flex gap-3 p-1 items-center">
           <div className="flex gap-2  items-center ">
             <MdEmail />
-            <p>gmail:</p>
+            <p className="text-sm">gmail:</p>
           </div>
           <p className="text-[13px] md:text-md">{aboutPreson.gmail}</p>
         </div>
         <div className="flex gap-3 p-1 items-center">
           <div className="flex gap-2  items-center ">
             <LiaAddressCardSolid className="text-2xl" />
-            <p>address:</p>
+            <p className="text-sm">address:</p>
           </div>
           <p>{aboutPreson.address}</p>
         </div>
