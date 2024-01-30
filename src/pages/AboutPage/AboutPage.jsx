@@ -48,14 +48,14 @@ export default function AboutPage() {
             <MdEmail />
             <p className="text-sm">gmail:</p>
           </div>
-          <p className="text-[13px] md:text-md">{aboutPreson.gmail}</p>
+          <p className="text-[11px] md:text-md">{aboutPreson.gmail}</p>
         </div>
         <div className="flex gap-3 p-1 items-center">
           <div className="flex gap-2  items-center ">
             <LiaAddressCardSolid className="text-2xl" />
             <p className="text-sm">address:</p>
           </div>
-          <p>{aboutPreson.address}</p>
+          <p className="whitespace-nowrap">{aboutPreson.address}</p>
         </div>
       </div>
     </div>

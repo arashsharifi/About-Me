@@ -11,6 +11,17 @@ import { EffectCoverflow, Pagination } from "swiper/modules";
 import { swiperDataProjects } from "../../data";
 
 import pic from "../../../public/imagePro/pro1.jpg";
+import pic1 from "../../../public/imagePro/2.jpg";
+import pic2 from "../../../public/imagePro/3.jpg";
+import pic3 from "../../../public/imagePro/4.jpg";
+import pic4 from "../../../public/imagePro/5.jpg";
+import pic5 from "../../../public/imagePro/6.jpg";
+import pic6 from "../../../public/imagePro/7.jpg";
+import pic7 from "../../../public/imagePro/8.jpg";
+import pic8 from "../../../public/imagePro/9.jpg";
+import pic9 from "../../../public/imagePro/10.jpg";
+import pic10 from "../../../public/imagePro/11.jpg";
+import pic11 from "../../../public/imagePro/12.jpg";
 
 const swiperDataProjects1 = [
   {
@@ -21,27 +32,74 @@ const swiperDataProjects1 = [
   },
   {
     id: 2,
-    img: pic,
+    img: pic1,
     title: "final-Project-maketab-js",
-    herefAddress: "https://github.com/arashsharifi/final_project_react",
+    herefAddress: "https://github.com/arashsharifi/data-base_finalproject_js",
   },
   {
     id: 3,
-    img: pic,
-    title: "mini-project",
-    herefAddress: "https://github.com/arashsharifi/final_project_react",
+    img: pic2,
+    title: "mini-project_redux_yupformik_form validation",
+    herefAddress:
+      "https://github.com/arashsharifi/mini_project_redux_yupFormik_from",
   },
   {
     id: 4,
-    img: pic,
-    title: "mini-project-two",
-    herefAddress: "https://github.com/arashsharifi/final_project_react",
+    img: pic3,
+    title: "Hamra weather conditions api",
+    herefAddress:
+      "https://github.com/arashsharifi/miniproject_weather-condition",
   },
   {
     id: 5,
-    img: pic,
-    title: "homePage",
-    herefAddress: "https://github.com/arashsharifi/final_project_react",
+    img: pic4,
+    title: "miniproject_Registrant number",
+    herefAddress:
+      "https://github.com/arashsharifi/miniproject_Registrant-number",
+  },
+  {
+    id: 6,
+    img: pic5,
+    title: "miniProject_productPage",
+    herefAddress: "https://github.com/arashsharifi/miniproject_pageProduct",
+  },
+  {
+    id: 7,
+    img: pic6,
+    title: "miniproject_todolist_useReducer()",
+    herefAddress:
+      "https://github.com/arashsharifi/miniProject_todoListReducer-",
+  },
+  {
+    id: 8,
+    img: pic7,
+    title: "miniproject_React-noteList",
+    herefAddress: "https://github.com/arashsharifi/miniproject_noteListReact",
+  },
+  {
+    id: 9,
+    img: pic8,
+    title: "miniproject_diamondTimer",
+    herefAddress: "https://github.com/arashsharifi/miniProject_diamondTimer",
+  },
+  {
+    id: 10,
+    img: pic9,
+    title: "miniproject_galleryMovie",
+    herefAddress: "https://github.com/arashsharifi/miniProject_galleryMovie",
+  },
+  {
+    id: 11,
+    img: pic10,
+    title: "miniproject_coffeeBar",
+    herefAddress: "https://github.com/arashsharifi/miniProject_coffeeBar",
+  },
+  {
+    id: 12,
+    img: pic11,
+    title: "miniproject_todoListDummyData",
+    herefAddress:
+      "https://github.com/arashsharifi/miniProject_todoListDummyData",
   },
 ];
 
@@ -50,7 +108,7 @@ export default function SwiperPag() {
   return (
     <>
       <div className=" flex items-center justify-center mt-5 ">
-        <h1 className="  text-2xl italic bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text ">
+        <h1 className="  text-lg md:text-2xl italic bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text ">
           Image gallery with swiper slider
         </h1>
       </div>

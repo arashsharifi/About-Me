@@ -9,7 +9,7 @@ export default function WorkSampels() {
     <div className="flex w-full flex-col font-comfortaa mt-20">
       <div className="bg-blue-200 flex flex-col  m-5 rounded-lg">
         <div>
-          <h1 className="text-center text-2xl text-violet-700 mt-5 ">
+          <h1 className="text-center text-2xl  text-violet-700 mt-5 ">
             Welcome to the gallery of my projects and my works{" "}
           </h1>
         </div>
