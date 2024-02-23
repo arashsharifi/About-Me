@@ -23,6 +23,7 @@ import pic9 from "../../../public/imagePro/10.jpg";
 import pic10 from "../../../public/imagePro/11.jpg";
 import pic11 from "../../../public/imagePro/12.jpg";
 import pic12 from "../../../public/imagePro/13.jpg";
+import pic13 from "../../../public/imagePro/14.jpg";
 
 const swiperDataProjects1 = [
   {
@@ -107,6 +108,12 @@ const swiperDataProjects1 = [
     title: "miniproject_todoListDummyData",
     herefAddress:
       "https://github.com/arashsharifi/miniProject_todoListDummyData",
+  },
+  {
+    id: 14,
+    img: pic13,
+    title: "responsive-purecss",
+    herefAddress: "https://github.com/arashsharifi/responsivePurecss.git",
   },
 ];
 
