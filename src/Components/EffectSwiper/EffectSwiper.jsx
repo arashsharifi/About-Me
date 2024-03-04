@@ -73,7 +73,7 @@ export default function EffectSwiper() {
               </div>
               <div className="w-[80%] mx-auto flex items-center md:hidden ">
                 <a
-                  href="#"
+                  href={data.linkGitHub}
                   className="w-full bg-transparent border-ferveritPink border-2 rounded-lg text-ferveritPink text-center active:bg-ferveritPink active:text-white"
                 >
                   github link
@@ -81,7 +81,7 @@ export default function EffectSwiper() {
               </div>
               <div className="w-[80%] mx-auto flex items-center md:hidden ">
                 <a
-                  href="#"
+                  href={data.vercel}
                   className="w-full bg-transparent border-yellow-600 border-2 rounded-lg text-yellow-600 text-center active:bg-yellow-600 active:text-white"
                 >
                   deploy
