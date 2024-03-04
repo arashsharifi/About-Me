@@ -121,7 +121,7 @@ export default function SwiperPag() {
   const [swiperDatas, setSwiperDatas] = useState(swiperDataProjects1);
   return (
     <>
-      <div className=" flex items-center justify-center mt-5 ">
+      <div className=" flex items-center justify-center mt-5 z-30 ">
         <h1 className="  text-lg md:text-2xl italic bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text ">
           Image gallery with swiper slider
         </h1>

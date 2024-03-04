@@ -19,7 +19,7 @@ export default function Header() {
   const checkStyle =
     "cursor-pointer text-white bg-ferveritPink px-2 py-1 rounded-lg";
   return (
-    <div className="shadow-md w-full fixed top-0 left-0 font-comfortaa">
+    <div className="shadow-md w-full fixed top-0 left-0 font-comfortaa z-50">
       <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
         <div className="font-bold text-2xl cursor-pointer flex items-center ">
           <span className="text-2xl">

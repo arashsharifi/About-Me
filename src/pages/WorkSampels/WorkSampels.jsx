@@ -1,13 +1,17 @@
 import React from "react";
-import SwiperPag from "../../Components/SwiperPag/SwiperPag";
+
 import { LiaUniversitySolid } from "react-icons/lia";
 import maktabPic from "../../../public/imagePro/qq.jpg";
 import { GrDocumentUser } from "react-icons/gr";
 import { FcSearch } from "react-icons/fc";
 import { FaInternetExplorer } from "react-icons/fa";
+import { FcCommandLine } from "react-icons/fc";
 import { BiSolidFactory } from "react-icons/bi";
 import { TfiAgenda } from "react-icons/tfi";
 import { FaCheck } from "react-icons/fa6";
+
+import SwiperPag from "../../Components/SwiperPag/SwiperPag";
+import EffectSwiper from "../../Components/EffectSwiper/EffectSwiper";
 export default function WorkSampels() {
   return (
     <div className="flex w-full flex-col font-comfortaa mt-20">
@@ -44,6 +48,28 @@ export default function WorkSampels() {
               work.
             </p>
           </div>
+        </div>
+      </div>
+      <div className="  mx-auto w-[95%] flex flex-col-reverse md:flex-row justify-between items-center p-4 ">
+        <div className="w-[100%] md:w-[60%]">
+          <div className="w-[100%] md:w-[80%] ">
+            <EffectSwiper />
+          </div>
+        </div>
+        <div className="flex flex-col gap-0  border-2 border-ferveritPink rounded-lg shadow-lg shadow-ferveritPink p-4 w-[90%] md:w-[40%]">
+          <div className="flex gap-2 items-center p-3">
+            <FcCommandLine className="text-5xl" />
+            <p className="font-bold text-ferveritPink">Deployed projects </p>
+          </div>
+          <p>
+            In this section, we also have projects that are coded and deployed
+            with the best possible quality
+          </p>
+          <p>
+            <span className="text-2xl text-red-600">Attention:</span>
+            Turn on your <span className="text-2xl text-red-600">vpn</span> to
+            see the projects deployed
+          </p>
         </div>
       </div>
       <div className=" w-[100%] mx-auto">
