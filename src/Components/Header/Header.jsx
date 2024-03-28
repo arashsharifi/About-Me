@@ -40,7 +40,10 @@ export default function Header() {
         >
           {category.map((cat) => (
             <li
-              onClick={() => setMainCategory(cat.category)}
+              onClick={() => {
+                setMainCategory(cat.category);
+                setOpen((prevState) => !prevState);
+              }}
               className={cat.category === mainCategory ? checkStyle : sameStyle}
               key={cat.id}
             >
