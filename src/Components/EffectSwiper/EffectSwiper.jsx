@@ -14,6 +14,7 @@ import "../EffectSwiper/EffectSwiper.css";
 import { EffectFlip, Pagination, Navigation } from "swiper/modules";
 
 import picEffect from "../../../public/imagePro/15.jpg";
+import picEffect1 from "../../../public/imagePro/17.jpg";
 import comings from "../../../public/imagePro/comingsoon.png";
 
 const dataEffectSwiper = [
@@ -26,9 +27,9 @@ const dataEffectSwiper = [
   },
   {
     id: 2,
-    linkGitHub: "comingsoon",
-    vercel: "comingsoon",
-    img: comings,
+    linkGitHub: "https://github.com/arashsharifi/dashboardAdminfull",
+    vercel: "https://dashboard-adminfull.vercel.app/",
+    img: picEffect1,
   },
   {
     id: 3,
