@@ -58,9 +58,9 @@ export default function EffectSwiper() {
         className="mySwiper"
       >
         {datas.map((data) => (
-          <SwiperSlide key={data.id}>
-            <div className="flex flex-col gap-2 bg-white rounded-lg overflow-hidden shadow-xl p-2">
-              <div className="w-[100%]">
+          <SwiperSlide className="swiperv" key={data.id}>
+            <div className="flex flex-col gap-2 bg-white rounded-lg mx-auto overflow-hidden shadow-xl p-2 max-w-[70%] h-[80%]   ">
+              <div className="w-fit h-fit">
                 <img className="w-full h-full" src={data.img} />
               </div>
               <div className=" hidden md:flex gap-2 ">
