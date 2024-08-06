@@ -21,10 +21,11 @@ export default function AboutPage() {
         </div>
       </div>
       <div className="flex flex-col mx-auto md:mx-0 justify-center gap-5 p-4 m-4 rounded-lg shadow-2xl shadow-gray-600 w-[90%] md:w-[60%]  bg-ferveritPink text-white pl-8 font-comfortaa">
-        <h1 className="mb-10">HELLOW I AM </h1>
-        <h2 className="text-4xl font-bold">{aboutPreson.name}</h2>
-        <h3 className="text-3xl">{aboutPreson.lastname}</h3>
-        <p className=" max-w-[600px]">{aboutPreson.desc}</p>
+        <h1 className="mb-10 lg:text-4xl lg:text-center">HELLOW I AM </h1>
+        <h2 className="hidden lg:block text-4xl lg:text-4xl lg:text-center font-bold">{aboutPreson.name}    {aboutPreson.lastname}</h2>
+        <h3 className="text-3xl block lg:hidden">{aboutPreson.name}</h3>
+        <h3 className="text-3xl block lg:hidden">{aboutPreson.lastname}</h3>
+        <p className=" max-w-[600px] lg:max-w-[90%] lg:mx-auto lg:text-center  lg:text-2xl">{aboutPreson.desc}</p>
         <div className="flex gap-2">
           <a className="text-2xl" href="#">
             <FaTelegram className="w-full" />

@@ -61,7 +61,7 @@ const swiperDataProjects1 = [
   },
   {
     id: 6,
-    img: pic3,
+    img: pic15,
     title: "Hamra weather conditions api",
     herefAddress:
       "https://github.com/arashsharifi/miniproject_weather-condition",
@@ -75,7 +75,7 @@ const swiperDataProjects1 = [
   },
   {
     id: 8,
-    img: pic15,
+    img: pic4,
     title: "miniproject_Registrant number",
     herefAddress:
       "https://github.com/arashsharifi/miniproject_Registrant-number",

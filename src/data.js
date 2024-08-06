@@ -13,8 +13,8 @@ wanted to be a good listener to get
 good skills and I also love my work
 Ive always been interested in new
 things in my work"`,
-    name: "ARASH",
-    lastname: "AMIRSHARIFI",
+    name: "Aarash",
+    lastname: "Amir sharifi",
     phone: "+98 936 530 52 48",
     job: "Front- End Developer",
     gmail: "arashamirsharifi1970@gmail.com",
