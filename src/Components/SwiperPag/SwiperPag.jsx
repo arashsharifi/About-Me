@@ -26,6 +26,7 @@ import pic12 from "../../../public/imagePro/13.jpg";
 import pic13 from "../../../public/imagePro/14.jpg";
 import pic14 from "../../../public/imagePro/16.jpg";
 import pic15 from "../../../public/imagePro/18.jpg";
+import pic16 from "../../../public/imagePro/18.jpg";
 
 const swiperDataProjects1 = [
   {
@@ -61,71 +62,78 @@ const swiperDataProjects1 = [
   },
   {
     id: 6,
+    img: pic16,
+    title: "mini-project_Wallnote_typeScript",
+    herefAddress:
+      "https://github.com/arashsharifi/wallnote",
+  },
+  {
+    id: 7,
     img: pic15,
     title: "Hamra weather conditions api",
     herefAddress:
       "https://github.com/arashsharifi/miniproject_weather-condition",
   },
   {
-    id: 7,
+    id: 8,
     img: pic3,
     title: "mini-project_material tailwind_useForm()",
     herefAddress:
       "https://github.com/arashsharifi/formvalidationtailwind",
   },
   {
-    id: 8,
+    id: 89,
     img: pic4,
     title: "miniproject_Registrant number",
     herefAddress:
       "https://github.com/arashsharifi/miniproject_Registrant-number",
   },
   {
-    id: 9,
+    id: 10,
     img: pic5,
     title: "miniProject_productPage",
     herefAddress: "https://github.com/arashsharifi/miniproject_pageProduct",
   },
   {
-    id: 10,
+    id: 11,
     img: pic6,
     title: "miniproject_todolist_useReducer()",
     herefAddress:
       "https://github.com/arashsharifi/miniProject_todoListReducer-",
   },
   {
-    id: 11,
+    id: 12,
     img: pic7,
     title: "miniproject_React-noteList",
     herefAddress: "https://github.com/arashsharifi/miniproject_noteListReact",
   },
   {
-    id: 12,
+    id: 13,
     img: pic8,
     title: "miniproject_diamondTimer",
     herefAddress: "https://github.com/arashsharifi/miniProject_diamondTimer",
   },
   {
-    id: 13,
+    id: 14,
     img: pic9,
     title: "miniproject_galleryMovie",
     herefAddress: "https://github.com/arashsharifi/miniProject_galleryMovie",
   },
   {
-    id: 14,
+    id: 15,
     img: pic10,
     title: "miniproject_coffeeBar",
     herefAddress: "https://github.com/arashsharifi/miniProject_coffeeBar",
   },
   {
-    id: 15,
+    id: 16,
     img: pic11,
     title: "miniproject_todoListDummyData",
     herefAddress:
       "https://github.com/arashsharifi/miniProject_todoListDummyData",
   },
   {
-    id: 16,
+    id: 17,
     img: pic13,
     title: "responsive-purecss",
     herefAddress: "https://github.com/arashsharifi/responsivePurecss.git",
