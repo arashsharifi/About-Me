@@ -26,7 +26,7 @@ import pic12 from "../../../public/imagePro/13.jpg";
 import pic13 from "../../../public/imagePro/14.jpg";
 import pic14 from "../../../public/imagePro/16.jpg";
 import pic15 from "../../../public/imagePro/18.jpg";
-import pic16 from "../../../public/imagePro/18.jpg";
+import pic16 from "../../../public/imagePro/19.jpg";
 
 const swiperDataProjects1 = [
   {
